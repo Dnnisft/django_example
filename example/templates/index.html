@@ -1,0 +1,8 @@
+<h1> &Aacute;rea protegida </h1>
+
+Bienvenido {{ user }}
+
+<h2> Noticias </h2>
+{% for post in list_post %}
+	<h4> {{ post.title }} </h4>
+{% endfor %}
